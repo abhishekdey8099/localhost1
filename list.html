@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Storage Homepage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assetslist/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script type="text/javascript">
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer",
+	{
+		theme: "theme2",
+		title:{
+			text: "Capacity"
+		},		
+		data: [
+		{       
+			type: "pie",
+			showInLegend: true,
+			toolTipContent: "{y} - #percent %",
+			yValueFormatString: "#,##0,,.## Million",
+			legendText: "{indexLabel}",
+			dataPoints: [
+				{  y: 4181563, indexLabel: "PlayStation 3" },
+				{  y: 2175498, indexLabel: "Wii" },
+				{  y: 3125844, indexLabel: "Xbox 360" },
+				{  y: 1176121, indexLabel: "Nintendo DS"},
+				{  y: 1727161, indexLabel: "PSP" },
+				{  y: 4303364, indexLabel: "Nintendo 3DS"},
+				{  y: 1717786, indexLabel: "PS Vita"}
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+		
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="#" class="logo">Welcome to LocalHost <span><strong>Abhishek Dey</strong></span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="home.html">Home</a></li>
+						</ul>
+						<ul class="actions vertical">
+							<li>Thank You</li>
+							<li><a href="index.html" class="button fit">Log Out</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										
+									</span>
+									<header class="major">
+										<div id="chartContainer" style="height: 435px; width: 100%;"></div>	
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="imageslist/pic02.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3>Welcome to your online space</h3>
+										<p>You have <b>5 GB</b> of space available!</p>
+									</header>
+								</article>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>Your Available Data</h2>
+									</header>
+									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<ul class="actions">
+										<li><a href="paas.html" class="button next">Process Now</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+				
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							
+							<ul class="copyright">
+								<li>&copy; LocalHost</li></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assetslist/js/jquery.min.js"></script>
+			<script src="assetslist/js/jquery.scrolly.min.js"></script>
+			<script src="assetslist/js/jquery.scrollex.min.js"></script>
+			<script src="assetslist/js/skel.min.js"></script>
+			<script src="assetslist/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assetslist/js/main.js"></script>
+
+	</body>
+</html>
